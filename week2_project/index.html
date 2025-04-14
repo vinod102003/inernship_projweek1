@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dynamic Image Slider</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="slider-container">
+      <div class="slider">
+        <div class="slide active">
+          <img src="https://picsum.photos/id/11/800/400" alt="Mountain View" />
+          <div class="caption">Mountain View</div>
+        </div>
+        <div class="slide">
+          <img src="https://picsum.photos/id/10/800/400" alt="Beach Sunset" />
+          <div class="caption">Beach Sunset</div>
+        </div>
+        <div class="slide">
+          <img src="https://images.pexels.com/photos/1796730/pexels-photo-1796730.jpeg?auto=compress&cs=tinysrgb&w=800&h=400&fit=crop" alt="Hong Kong Skyline" />
+          <div class="caption">Hong Kong Skyline</div>
+        </div>
+      </div>
+
+      <button class="prev-btn">❮</button>
+      <button class="next-btn">❯</button>
+
+      <div class="thumbnails">
+        <img
+          src="https://picsum.photos/id/11/200/100"
+          alt="Mountain View"
+          class="thumbnail active"
+        />
+        <img
+          src="https://picsum.photos/id/10/200/100"
+          alt="Beach Sunset"
+          class="thumbnail"
+        />
+        <img
+          src="https://images.pexels.com/photos/1796730/pexels-photo-1796730.jpeg?auto=compress&cs=tinysrgb&w=200&h=100&fit=crop"
+          alt="Hong Kong Skyline"
+          class="thumbnail"
+        />
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
